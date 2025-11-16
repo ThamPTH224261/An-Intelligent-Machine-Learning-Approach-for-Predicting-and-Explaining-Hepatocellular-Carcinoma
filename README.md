@@ -1,41 +1,20 @@
 # An-Intelligent-Machine-Learning-Approach-for-Predicting-and-Explaining-Hepatocellular-Carcinoma
-Project Overview
+This repository provides a complete workflow for analyzing and modeling the Merged HCC dataset, including feature selection, visualization, model training, evaluation, and explainability.
 
-This repository contains the full workflow for processing and analyzing the Merged HCC dataset, including data visualization, feature selection, model training, evaluation, and model interpretability.
+Files Overview
 
-File Structure
-1. Data
+Merged_HCC.xlsx — Raw dataset
 
-Dataset file and notebooks for loading and visualizing the data.
+Visualazation_Merged_HCC.ipynb — General exploratory data visualization.
 
-2. Feature Analysis & Selection
+Feature_selection.ipynb — Feature selection using statistical and ML-based methods.
 
-Evaluation of feature importance and feature selection.
+Train_Grid_Search_Merged_HCC.ipynb — Trains ML models with hyperparameter tuning via Grid Search.
 
-Exploration of feature distributions.
+TEST_Grid_Search_Merged_HCC.ipynb — Evaluates trained models on the test set.
 
-3. Model Training & Optimization
+Feature_Visualization.ipynb — Visualizes selected features and compares model performance on the test set.
 
-Model training pipelines.
+(LIME)_Merged_HCC.ipynb — Generates local explanations and plots average feature importance from LIME.
 
-Hyperparameter tuning using Grid Search.
-
-Algorithm performance comparison.
-
-4. Model Testing & Evaluation
-
-Test-set evaluation.
-
-Performance metrics and confusion matrices.
-
-5. Explainability
-
-LIME and SHAP notebooks for model interpretability.
-
-Dataset
-
-Merged_HCC.xlsx — the primary dataset used for all analyses.
-
-Workflow Summary
-
-raw data → analysis → modeling → evaluation → interpretability
+(SHAPLEY)_Merged_HCC.ipynb — Visualizes feature values using SHAP.
