@@ -1,21 +1,41 @@
 # An-Intelligent-Machine-Learning-Approach-for-Predicting-and-Explaining-Hepatocellular-Carcinoma
-This repository contains the entire workflow for processing the merged HCC dataset, including data preparation, feature selection, model training, and model explainability.
-Overview
+Project Overview
 
-Data
-Dataset and notebooks for data loading and visualization.
+This repository contains the full workflow for processing and analyzing the Merged HCC dataset, including data visualization, feature selection, model training, evaluation, and model interpretability.
 
-Feature Analysis & Selection
-Exploration of feature distributions, feature importance, and feature selection.
+File Structure
+1. Data
 
-Model Training & Optimization
-Model training, hyperparameter tuning (Grid Search), and algorithm comparison.
+Dataset file and notebooks for loading and visualizing the data.
 
-Model Testing & Evaluation
-Evaluation on the test set, performance metrics, and confusion matrices.
+2. Feature Analysis & Selection
 
-Explainability
+Evaluation of feature importance and feature selection.
+
+Exploration of feature distributions.
+
+3. Model Training & Optimization
+
+Model training pipelines.
+
+Hyperparameter tuning using Grid Search.
+
+Algorithm performance comparison.
+
+4. Model Testing & Evaluation
+
+Test-set evaluation.
+
+Performance metrics and confusion matrices.
+
+5. Explainability
+
 LIME and SHAP notebooks for model interpretability.
 
-Includes a single dataset file (Merged_HCC.xlsx).
-Workflow: raw data → analysis → modeling → evaluation → interpretability.
+Dataset
+
+Merged_HCC.xlsx — the primary dataset used for all analyses.
+
+Workflow Summary
+
+raw data → analysis → modeling → evaluation → interpretability
